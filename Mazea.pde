@@ -61,7 +61,7 @@ class Mazea {
           }
         }
       } else if (createStep<(xNum/2)*(yNum/2)+createWallNum) {
-        //println("step : " + createStep);
+        println("step : " + createStep);
 
         boolean complete = false;
         while (!complete) {
